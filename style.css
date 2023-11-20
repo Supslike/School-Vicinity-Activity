@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+body {
+    background-image: url("static/IMG_2015.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+main {
+    backdrop-filter: blur(10px);
+}
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-wrapper, .information, .design {
+    max-width: 40%;
+    min-width: 40%;
+}
+
+.text-content {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5% 10%;
+    border-radius: 20px;
+}
+
+.main-content .information {
+    display: flex;
+    align-items: center;
+}
+
+.img-wrapper img {
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    filter: brightness(80%);
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    color: white;
+    border-bottom: rgb(231, 247, 161) solid 3px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: white;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.gradient {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #6095E6);
+    height: 20vh;
+}
+
+.un-content {
+    background-color: #6095E6;
+    display: flex;
+    justify-content: space-evenly;
+    height: fit-content;
+    padding-bottom: 5%;
+}
+
+.un-content .information {
+    margin-top: 10%;
+}
+
+.un-content .information h2 {
+    color: white;
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.un-content .information p {
+    text-indent: 0.5in;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design img {
+    width: auto;
+    height: 400px;
+}
